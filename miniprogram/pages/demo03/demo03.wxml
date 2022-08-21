@@ -1,0 +1,50 @@
+<!--pages/demo03/demo03.wxml-->
+<text >我是demo03组件</text>
+
+<!-- 数据绑定 -->
+<!-- <view >{{msg}}</view>
+<view >{{person.name}}</view>
+
+<view data-a="{{msg}}">自定义标签</view>
+==================== -->
+
+
+<!-- <view >{{1+2}}</view>
+<view >{{(2+3) % 2 === 1 ? '奇数' : '偶数'}}</view> -->
+
+<!-- <view >
+  <checkbox checked="{{true}}" />
+</view> -->
+
+<!-- 循环遍历 -->
+<!-- =============
+<view 
+  wx:for="{{person}}" 
+  wx:for-item="item" 
+  wx:for-index="index" 
+  wx:key="index"
+>
+{{index}}--{{item}}
+</view>
+=============
+<view >
+<block 
+  wx:for="{{person}}" 
+  wx:for-item="item" 
+  wx:for-index="index" 
+  wx:key="index"
+>
+{{index}}--{{item}}
+</block>
+</view> -->
+
+<!-- 条件渲染 wx:if -->
+<!-- <view wx:if="{{true}}">我是wx: if</view>
+<view wx:if="{{false}}">我是wx: if</view> -->
+
+<!-- hidden -->
+<!-- <view hidden="{{true}}">我是 hidden</view>
+<view hidden="{{false}}">我是 hidden</view> -->
+
+<!-- hidden 不要和 display 一起使用，会失效 -->
+<view hidden="{{true}}" style="display: flex;">我是 hidden</view>

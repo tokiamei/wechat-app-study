@@ -1,0 +1,7 @@
+<!--pages/demo04/demo04.wxml-->
+<text>我是demo04</text>
+
+<input type="text" bindinput="inputHandler"/>
+<button bindtap="handleTap" data-operation="{{1}}">+</button>
+<button bindtap="handleTap" data-operation="{{-1}}">-</button>
+<view >{{num}}</view>
